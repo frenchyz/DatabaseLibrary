@@ -31,7 +31,7 @@ public class dbhandler {
          try{
             Class.forName("com.mysql.jdbc.Driver").newInstance();
             dir= "jdbc:mysql://localhost:3306/utd_library"; //include Library when db created
-            conn= DriverManager.getConnection(dir,"root", "Manbearpig24?");
+            conn= DriverManager.getConnection(dir,"root", "toor");
             
             
         }
